@@ -36,3 +36,20 @@ apt install apache2 -y
 - Vá em segurança e adiciona uma nova regra
 - Selecione o HTTP, não seleciona o HTTPS
 - E coloque para ser anywhere (0.0.0.0/0)
+
+# Banco de dados
+
+```shell
+apt install mysql-server-8.0 -y
+```
+
+Logar no banco de dados
+
+```shell
+mysql -u root -p
+```
+
+Pode utilizar os comandos mySQL para a criação das tabelas e etc.
+
+
+
